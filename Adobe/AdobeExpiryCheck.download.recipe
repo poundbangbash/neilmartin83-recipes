@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Aladin Desktop.</string>
+	<string>Downloads the Adobe Device License Expiry Check tool - https://helpx.adobe.com/enterprise/kb/volume-license-expiration-check.html</string>
 	<key>Identifier</key>
 	<string>com.github.neilmartin83.download.AdobeExpiryCheck</string>
 	<key>Input</key>
@@ -25,10 +25,6 @@
 			</dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>EndOfCheckPhase</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
